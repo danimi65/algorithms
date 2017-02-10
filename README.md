@@ -49,12 +49,23 @@ end for i
 
 
 ## Best case scenario
+O(n)
 
 ## Worst case scenario
+array sorted in reverse order O(n2)
 
 
 ## 3. Quick Sort
-Quick sort is when we order a list of numbers by taking a number, usually the last number in the list, and comparing all other numbers in the list to that number. If the number that we are comparing to the first number is smaller than the first number, then we place that number in the a separate list for smaller numbers, if the number is bigger than the first number, then we place it in a separate list for bigger numbers. At then end, we combine all the lists together with the smaller number list going first, then the first number we were looking at, and finally the larger number list. 
+Quick sort is when we order a list of numbers by taking a number, usually the first number in the list, and comparing all other numbers in the list to that number. If the number that we are comparing to the first number is smaller than the first number, then we place that number in the a separate list for smaller numbers, if the number is bigger than the first number, then we place it in a separate list for bigger numbers. At then end, we combine all the lists together with the smaller number list going first, then the first number we were looking at, and finally the larger number list. 
+
+
+### Pseudo code
+
+
+### Best case
+
+### Worst case
+O(nlogn)
 
 
 
