@@ -45,7 +45,16 @@ set array[j+ 1] = current position
 
 end for i
 
+``` 
 
+
+## Best case scenario
+
+## Worst case scenario
+
+
+## 3. Quick Sort
+Quick sort is when we order a list of numbers by taking a number, usually the last number in the list, and comparing all other numbers in the list to that number. If the number that we are comparing to the first number is smaller than the first number, then we place that number in the a separate list for smaller numbers, if the number is bigger than the first number, then we place it in a separate list for bigger numbers. At then end, we combine all the lists together with the smaller number list going first, then the first number we were looking at, and finally the larger number list. 
 
 
 
